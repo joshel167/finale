@@ -1,0 +1,15 @@
+{
+  "name": "finale",
+  "version": "1.0.0",
+  "description": "finale",
+  "main": "public/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "*.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
