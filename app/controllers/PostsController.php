@@ -21,12 +21,15 @@ class PostsController
 
     public function show($vars)
     {
-echo __METHOD__;
-$id = $vars["id"];
+//echo __METHOD__;
+//$id = ;
 //$post = new Post('grej','grejen',7);
 $post = new Post();
-$post->find($id);
-var_dump($post);
+$post->find($vars["id"]);
+$data = [
+    "post"=>$post
+];
+view('posts','show',$data);
 //var_dump($vars);
     }
 
